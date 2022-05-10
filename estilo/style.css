@@ -124,7 +124,7 @@ main a{
 
 main a:hover{
     text-decoration: underline;
-    color: red
+    color: var(--cor4);
 }
 
 main img{
@@ -180,3 +180,15 @@ footer{
     padding: 5px;
 }
 
+footer a{
+    color: var(--cor2);
+}
+
+
+footer a:hover{
+    color: yellowgreen;
+}
+
+footer a:active{
+    color: steelblue;
+}
